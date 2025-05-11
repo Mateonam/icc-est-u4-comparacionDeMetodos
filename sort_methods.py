@@ -1,4 +1,5 @@
-class sort_methods:
+class sortingMethods:
+
     def sort_burbble(self, array):
             arreglo = array.copy()
             n = len(arreglo)
@@ -17,13 +18,14 @@ class sort_methods:
 
         for i in range(n):
             intercambiado = False
-            for j in range(0, n-1-i):
-                if arreglo[j] > arreglo[j+1]:
-                    arreglo[j], arreglo[j+1] = arreglo[j+1], arreglo[j]
+            for j in range(0, n - 1 - i):
+                if arreglo[j] > arreglo[j + 1]:
+                    arreglo[j], arreglo[j + 1] = arreglo[j + 1], arreglo[j]
                     intercambiado = True
-                if not intercambiado:
-                    break
+            if not intercambiado:
+                break
         return arreglo
+
     
     def sort_insertion(self, array):
         arreglo = array.copy()
