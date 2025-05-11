@@ -52,7 +52,7 @@ El programa genera dos gráficos de líneas:
 
 ### Ejemplo:
 
-![Figuras](figuras.png)
+![Mediciones de tiempo](Images/mediciones_tiempo.png)
 
 ---
 
